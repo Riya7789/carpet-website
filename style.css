@@ -147,12 +147,12 @@ button:hover{
     cursor: pointer;
 }
 
-.banner-text{
+.section-aboutus{
     padding-top:100px;
     background-color: var(--bg-color);
 }
 
-.banner-text .container{
+.banner-content{
     text-align: center;
     padding: 0px 200px;
     color: var(--secondary-color);
@@ -219,12 +219,15 @@ button:hover{
 
 .category-item .box-img{
     width: 100%;
-    /* flex: 1; */
 }
 
-.collection a{
+.collection p{
     text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    padding: 75px 0px;
 }
+
 
 /* footer-section */
 .footer-center{
@@ -266,4 +269,101 @@ button:hover{
 .terms {
     display: flex;
     gap: 15px;
+}
+
+/* Contact css */
+
+.form-container{
+    text-align: center;
+    padding: 100px;
+    background-color: var(--bg-color);
+}
+
+.contact-box h4{
+    font-size: 29px;
+    font-weight: 400;
+}
+
+.form-content{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.info{
+    display: flex;
+    gap: 30px;
+}
+
+.info input{
+    flex: 1;
+}
+
+.form-container input,textarea{
+    padding: 8px;
+}
+
+/* shop page */
+.product-content{
+    background-color: var(--bg-color);
+}
+.product-content .container{
+    display: flex;
+    gap: 70px;
+}
+
+.categories,.color-selection{
+    padding-top: 30px;
+}
+
+.sidebar h3{
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.list-block{
+    padding-bottom: 20px;
+}
+
+.products h2{
+    font-size: 36px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.row{
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.row img{
+    height: 330px;
+    padding-bottom: 20px;
+}
+
+.img-container .title{
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.img-container .price{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--theme-color);
+    text-align: center;
+}
+
+/* story psge */
+.story-content{
+    text-align: center;
+}
+
+.text-block{
+    padding-bottom: 100px;
 }
