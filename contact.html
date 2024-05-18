@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
@@ -12,9 +12,10 @@
     <!-- header section -->
     <header class="site-header">
         <div class="header-topbar">
-            <p>Use Coupon code "LAUNCH25" to get 25% discount.</p>
-            <!-- <p>Free Ground Shipping on All US Orders. Free Returns on Exchange.</p> -->
+            <span id="offer1" class="offer">Use Coupon code "LAUNCH25" to get 25% discount.</span>
+            <span id="offer2" class="offer">Free Ground Shipping on All US Orders. Free Returns on Exchange.</span>
         </div>
+        <script src="script/script.js"></script>
         <div class="container">
             <div class="header-main">
                 <div class="logo">
@@ -45,10 +46,15 @@
         </div>
     </header>
     <div class="contact-box">
+        <div class="banner-section">
+            <span>Contact us</span><br>
+            <a href="index.html">Home</a> 
+            <p>> Contact Us</p>
+        </div>
         <div class="form-container">
             <h4 class="title_block">Get In Touch</h4>
-            <p class="">Please fill out the quick form and one of our customer services representatives will respond shortly. Or, email us at customerservice@himalayancarpet.com.
-                Thank you!</p>
+            <p class="contact-boxcontent">Please fill out the quick form and one of our customer <br>services representatives will respond shortly. Or, email us at <br><a href="mailto: customerservice@himalayancarpet.com.">customerservice@himalayancarpet.com.</a> 
+                <br>Thank you!</p>
             <form action="submit.php" method="post" class="form-content">
                 <div class="info">
                     <input type="" name="name" placeholder="Name*" required>
@@ -56,7 +62,7 @@
                 </div>
                 <input type="text" placeholder="Subject*" id="subject" required>
                 <textarea cols="20" rows="8" placeholder="Enter your message*" required></textarea>
-                <input type="submit" value="SEND MESSAGE" ></input>
+                    <input type="submit"  value="SEND MESSAGE" class="btn-default"></input>
             </form>
         </div>
     </div>

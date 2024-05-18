@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carpet Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <!-- header section -->
     <header class="site-header">
         <div class="header-topbar">
-            <p>Use Coupon code "LAUNCH25" to get 25% discount.</p>
-            <!-- <p>Free Ground Shipping on All US Orders. Free Returns on Exchange.</p> -->
+                <span id="offer1" class="offer">Use Coupon code "LAUNCH25" to get 25% discount.</span>
+                <span id="offer2" class="offer">Free Ground Shipping on All US Orders. Free Returns on Exchange.</span>
         </div>
+            <script src="script/script.js"></script>
+
         <div class="container">
             <div class="header-main">
                 <div class="logo">
@@ -21,7 +23,7 @@
                 </div>
                     <nav>
                         <ul>
-                            <li><a href="#">Home</a></li>
+                            <li><a href="#" class="active">Home</a></li>
                             <li><a href="shop.html">Shop</a></li>
                             <li><a href="story.html">Story</a></li>
                             <li><a href="b2b.html">B2B</a></li>
@@ -113,8 +115,7 @@
                 </div>
             </div>
             <div class="collection">
-                <p><a href="#">View all collections</a></p>
-                <hr>
+                <p class="collection-link"><a href="#">View all collections</a></p>
             </div>
     </div>
 
