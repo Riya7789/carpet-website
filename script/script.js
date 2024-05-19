@@ -16,3 +16,11 @@ function toggleOffers(){
 }
 
 setInterval(toggleOffers, 3000);
+
+document.querySelector('.add-to-cart').addEventListener('click', function(){
+    alert('Added to cart');
+});
+
+document.querySelector('.add-to-wishlist').addEventListener('click', function(){
+    alert('Added to wishlist');
+});
